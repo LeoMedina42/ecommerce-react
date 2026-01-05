@@ -1,24 +1,20 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // Pages
-import PaginaPrincipal from "./pages/PaginaPrincipal";
+import PaginaPrincipal from "./pages/paginaPrincipal";
 import DetalleProducto from "./pages/DetalleProducto";
 import Administracion from "./pages/Administracion";
-import Login from "./pages/Login";
+import Login from "./pages/login";
 import Registro from "./pages/Registro";
 import AcercaNosotros from "./pages/AcercaNosotros";
 import Error404 from "./pages/Error404";
 
-// ❌ Comentá estos imports
-// import Header from "./components/headerComponentes";
-// import Footer from "./components/footer";
+
 
 function App() {
   return (
     <Router>
-      {/* ❌ Comentá estos componentes */}
-      {/* <Header /> */}
-
+     
       <Routes>
         <Route path="/" element={<PaginaPrincipal />} />
         <Route path="/producto/:id" element={<DetalleProducto />} />
@@ -29,7 +25,7 @@ function App() {
         <Route path="*" element={<Error404 />} />
       </Routes>
 
-      {/* <Footer /> */}
+     
     </Router>
   );
 }
