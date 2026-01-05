@@ -12,7 +12,7 @@ const productos = [
     id: 2,
     nombre: "Mouse Gamer",
     precio: 35000,
-    imagen: "https://via.placeholder.com/300",
+    imagen: "",
   },
   {
     id: 3,
