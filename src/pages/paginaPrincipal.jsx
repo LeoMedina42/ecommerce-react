@@ -1,32 +1,6 @@
-import CardProductos from "../components/CardProductos"
+import CardProductos from "../components/CardProductos";
+import productos from "../data/data";
 import "./PaginaPrincipal.css";
-
-const productos = [
-  {
-    id: 1,
-    nombre: "Notebook Gamer",
-    precio: 1200000,
-    imagen: "https://via.placeholder.com/300",
-  },
-  {
-    id: 2,
-    nombre: "Mouse Gamer",
-    precio: 35000,
-    imagen: "",
-  },
-  {
-    id: 3,
-    nombre: "Teclado Mecánico",
-    precio: 90000,
-    imagen: "https://via.placeholder.com/300",
-  },
-  {
-    id: 4,
-    nombre: "Auriculares RGB",
-    precio: 150000,
-    imagen: "https://via.placeholder.com/300",
-  },
-];
 
 const PaginaPrincipal = () => {
   return (

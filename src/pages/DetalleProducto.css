@@ -1,0 +1,17 @@
+.detalle-producto {
+  margin-top: 40px;
+}
+
+.detalle-img {
+  max-height: 420px;
+  object-fit: contain;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.precio {
+  color: #28a745;
+  font-weight: bold;
+  margin: 20px 0;
+}
